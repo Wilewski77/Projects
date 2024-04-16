@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiply tester game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <input type="number" disabled class="firstFactor"><span class="x">
+
+            x
+        </span>
+        <input type="number" disabled class="secondFactor">
+        <label for="result">
+            <span class="x">
+
+                =
+            </span></label><input type="number" min="1" max="100" id="result">
+        <button class="btn">Sprawdz</button>
+
+
+        <p class="scoreParagraph">Wynik: <span class="score">0%</span></p>
+
+        <div class="correct">
+
+            <p>Poprawne: <span class="correctAnswers">0</span></p>
+        </div>
+        <div class="wrong">
+
+            <p>Błędy: <span class="wrongAnswers">0</span></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

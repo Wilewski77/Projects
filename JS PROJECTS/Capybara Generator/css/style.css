@@ -1,0 +1,40 @@
+body {
+	background: rgb(17, 17, 17);
+	font-family: sans-serif;
+}
+.header-content {
+	text-align: center;
+}
+.btn {
+	background: transparent;
+	border: 5px solid rgb(17, 17, 17);
+	border-radius: 30px;
+	background-color: #c55e5e;
+	color: #fff;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+	margin: 40px;
+}
+.btn:hover {
+	border: 5px solid black;
+	box-shadow: 5px 5px 5px black;
+}
+/* JavaScript */
+.capybaras {
+	margin: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.random-capybara {
+	width: 40%;
+}
+img {
+	border-radius: 50px;
+	border: 5px solid black;
+	max-width: 700px;
+	height: 30rem;
+	transition: 0.3s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
